@@ -32,8 +32,9 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end hidden lg:flex">
-                <Link className="btn bg-[#FEBF00] text-white border-2 border-[#FEBF00] 
-                hover:border-[#FEBF00] hover:hover:text-[#FEBF00] hover:bg-transparent" to="/">Book a Table</Link>
+                <Link className="btn bg-[#FEBF00] font-robo font-bold border-2 border-[#FEBF00] 
+                hover:border-[#FEBF00] hover:hover:text-[#FEBF00] hover:bg-transparent" to="/">
+                    Book a Table</Link>
 
             </div>
         </div >
