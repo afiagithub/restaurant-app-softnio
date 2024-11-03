@@ -1,6 +1,5 @@
 import React from 'react';
 import bannerImg from "../assets/BannerImg.png"
-import offerImg from "../assets/offerImg.png"
 import flowerImg from '../assets/Vector.png'
 import { Link } from 'react-router-dom';
 
