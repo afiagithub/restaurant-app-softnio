@@ -11,10 +11,10 @@ import ServiceCard from "./ServiceCard";
 
 const About = () => {
     return (
-        <div className="py-5 lg:py-20 px-7 lg:px-28 relative">
+        <div className="py-5 lg:py-20 lg:px-28 relative">
             <div className="hero min-h-[50vh]">
-                <img src={sideImg} alt="" className="absolute right-0 bottom-36 w-32" />
-                <div className="flex flex-col lg:flex-row items-start gap-5 w-full">
+                <img src={sideImg} alt="" className="hidden lg:flex absolute right-0 bottom-36 w-32" />
+                <div className="flex flex-col lg:flex-row items-center lg:items-start gap-5 w-full">
                     <div className="relative w-4/5">
                         <img src={aboutImg} className="max-w-sm lg:max-w-lg rounded-lg shadow-2xl" />
 
@@ -37,7 +37,7 @@ const About = () => {
 
                             <TabPanel>
                                 <div className="py-5">
-                                    <p className="font-bebas font-medium text-5xl text-[#181818]">
+                                    <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Exceptional culinary <br /> experience and delicious food
                                     </p>
                                     <p className="font-robo font-light text-sm py-5 w-[95%]">
@@ -59,7 +59,7 @@ const About = () => {
 
                             <TabPanel>
                                 <div className='py-5'>
-                                    <p className="font-bebas font-medium text-5xl text-[#181818]">
+                                    <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Culinary experience of <br /> 12+ years
                                     </p>
                                     <p className="font-robo font-light text-sm py-5 w-[95%]">
@@ -74,7 +74,7 @@ const About = () => {
 
                             <TabPanel>
                                 <div className='py-5'>
-                                    <p className="font-bebas font-medium text-5xl text-[#181818]">
+                                    <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Get your booking now <br /> by calling or online request
                                     </p>
                                     <p className="font-robo font-light text-sm py-5 w-[95%]">
@@ -90,7 +90,7 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div className="flex flex-row justify-between">
+            <div className="flex flex-col lg:flex-row justify-between items-center">
                 <ServiceCard img={serviceImg} service={'fast delivery'} desc={'Within 30 minutes'} />
                 <ServiceCard img={medalImg} service={'absolute dining'} desc={'pickup delivery'} />
                 <ServiceCard img={bagImg} service={'Best buffet restaurant'} desc={'Grab your food order'} />
