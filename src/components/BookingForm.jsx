@@ -33,7 +33,7 @@ const BookingForm = () => {
         console.log(bookingData);
     }
     return (
-        <div className="text-white bg-cover bg-top py-12 lg:py-16"
+        <div className="text-white bg-cover bg-top py-12 lg:py-16 px-7 lg:px-20"
             style={{ backgroundImage: `url(${bookingImg})` }}>
             <div className="w-full p-8 lg:px-12 lg:w-[50%]">
                 <TitleLine sub={'Book Your Table'} />
@@ -55,7 +55,7 @@ const BookingForm = () => {
                     <div className="relative">
                         <img src={calendarImg} alt="calendar" className="absolute top-5 right-3" />
                         <DatePicker name="reserveDate"
-                            className='block w-full lg:w-[280px] px-5 py-3 mt-2 text-white placeholder-white 
+                            className='block w-full lg:w-[238px] px-5 py-3 mt-2 text-white placeholder-white 
                             border border-white bg-transparent '
                             selected={startDate} onChange={(date) => setStartDate(date)} />
                     </div>

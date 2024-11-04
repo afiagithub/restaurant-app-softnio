@@ -3,6 +3,7 @@ import Banner from '../components/Banner';
 import About from '../components/About';
 import PopularMenu from '../components/PopularMenu';
 import BookingForm from '../components/BookingForm';
+import Reviews from '../components/Reviews';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             <About/>
             <PopularMenu/>
             <BookingForm/>
+            <Reviews/>
         </div>
     );
 };
