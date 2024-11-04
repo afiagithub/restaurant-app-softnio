@@ -8,6 +8,7 @@ import bagImg from "../assets/bag.png"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import ServiceCard from "./ServiceCard";
+import CommonBtn from "./shared/CommonBtn";
 
 const About = () => {
     return (
@@ -48,9 +49,7 @@ const About = () => {
                                         ut labore et dolore magna minim veniam nostrud exercitation.
                                     </p>
                                     <div className="flex flex-row items-center gap-8">
-                                        <Link className="btn bg-[#FEBF00] font-robo font-bold border-2 border-[#FEBF00] 
-                hover:border-[#FEBF00] hover:hover:text-[#FEBF00] hover:bg-transparent" to="/">
-                                            About More</Link>
+                                        <CommonBtn btnText={'About More'}/>
                                         <p className="font-robo font-semibold flex flex-row gap-2">
                                             <img src={callImg} alt="" /> +88 3426 739 485</p>
                                     </div>

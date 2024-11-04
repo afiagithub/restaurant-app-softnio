@@ -2,7 +2,7 @@ import React from 'react';
 
 const MenuCard = ({img, title, desc}) => {
     return (
-        <div className="card bg-base-100 w-64 h-72">
+        <div className="card bg-base-100 w-72 lg:w-64 h-72">
             <figure className="px-10 pt-10">
                 <img src={img} alt="Burger" className="rounded-xl h-28" />
             </figure>
