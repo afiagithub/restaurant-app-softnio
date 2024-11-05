@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import aboutImg from "../assets/about.jfif"
 import callImg from "../assets/call.png"
 import sideImg from "../assets/sideDish.png"
@@ -7,12 +6,12 @@ import medalImg from "../assets/medal.png"
 import bagImg from "../assets/bag.png"
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
-import ServiceCard from "./ServiceCard";
+import ServiceCard from "./cards/ServiceCard";
 import CommonBtn from "./shared/CommonBtn";
 
 const About = () => {
     return (
-        <div className="py-5 lg:py-20 lg:px-28 relative">
+        <div className="py-10 lg:py-20 lg:px-28 relative">
             <div className="hero min-h-[50vh]">
                 <img src={sideImg} alt="" className="hidden lg:flex absolute right-0 bottom-36 w-32" />
                 <div className="flex flex-col lg:flex-row items-center lg:items-start gap-5 w-full">
@@ -41,7 +40,7 @@ const About = () => {
                                     <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Exceptional culinary <br /> experience and delicious food
                                     </p>
-                                    <p className="font-robo font-light text-sm py-5 w-[95%]">
+                                    <p className="font-robo text-sm py-5 w-[95%]">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Ornare non sed est cursus. Vel hac convallis ipsum, facilisi
                                         odio pellentesque bibendum viverra tempus. Lorem ipsum dolor
@@ -61,7 +60,7 @@ const About = () => {
                                     <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Culinary experience of <br /> 12+ years
                                     </p>
-                                    <p className="font-robo font-light text-sm py-5 w-[95%]">
+                                    <p className="font-robo text-sm py-5 w-[95%]">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Ornare non sed est cursus. Vel hac convallis ipsum, facilisi
                                         odio pellentesque bibendum viverra tempus. Lorem ipsum dolor
@@ -76,7 +75,7 @@ const About = () => {
                                     <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Get your booking now <br /> by calling or online request
                                     </p>
-                                    <p className="font-robo font-light text-sm py-5 w-[95%]">
+                                    <p className="font-robo text-sm py-5 w-[95%]">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Ornare non sed est cursus. Vel hac convallis ipsum, facilisi
                                         odio pellentesque bibendum viverra tempus. Lorem ipsum dolor
@@ -91,7 +90,7 @@ const About = () => {
             </div>
             <div className="flex flex-col lg:flex-row justify-between items-center">
                 <ServiceCard img={serviceImg} service={'fast delivery'} desc={'Within 30 minutes'} />
-                <ServiceCard img={medalImg} service={'absolute dining'} desc={'pickup delivery'} />
+                <ServiceCard img={medalImg} service={'absolute dining'} desc={'Best buffet restaurant'} />
                 <ServiceCard img={bagImg} service={'Best buffet restaurant'} desc={'Grab your food order'} />
             </div>
         </div>

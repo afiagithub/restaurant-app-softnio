@@ -41,26 +41,26 @@ const BookingForm = () => {
                 <p className="text-sm font-robo lg:w-4/5">Enim tempor eget pharetra facilisis sed
                     maecenas adipiscing. Eu leo molestie vel, ornare non id blandit netus.</p>
 
-                <form onSubmit={handleBooking} className="grid grid-cols-1 gap-6 mt-8 md:grid-cols-2">
-                    <div>
+                <form onSubmit={handleBooking} className="space-y-5 lg:space-y-0 lg:grid grid-cols-2 gap-6 mt-8 w-full">
+                    <div className="w-full">
                         <input name="name" type="text" placeholder="Your Name * "
                             className="block w-full px-5 py-3 mt-2 text-white placeholder-white 
-                            border border-white bg-transparent " />
+                            border border-white bg-transparent" />
                     </div>
                     <div>
                         <input name="email" type="email" placeholder="Your Email"
                             className="block w-full px-5 py-3 mt-2 text-white placeholder-white 
-                            border border-white bg-transparent " />
+                            border border-white bg-transparent" />
                     </div>
                     <div className="relative">
                         <img src={calendarImg} alt="calendar" className="absolute top-5 right-3" />
                         <DatePicker name="reserveDate"
-                            className='block w-full lg:w-[238px] px-5 py-3 mt-2 text-white placeholder-white 
-                            border border-white bg-transparent '
+                            className='block w-[22.6rem] md:w-[86vw] lg:w-[238px] px-5 py-3 mt-2 text-white placeholder-white 
+                            border border-white bg-transparent'
                             selected={startDate} onChange={(date) => setStartDate(date)} />
                     </div>
                     <div className="relative">
-                        <img src={numImg} alt="calendar" className="absolute top-6 right-3" />
+                        <img src={numImg} alt="calendar" className="absolute top-4 lg:top-6 right-3" />
                         <input name="total_people" type="number" placeholder="Total People"
                             className="block w-full px-5 py-3 mt-2 text-white placeholder-white 
                             border border-white bg-transparent " />

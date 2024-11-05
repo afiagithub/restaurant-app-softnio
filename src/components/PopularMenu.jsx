@@ -21,27 +21,17 @@ const PopularMenu = () => {
                 <TitleLine title={'POPULAR FOOD ITEMS'} sub={'Crispy, Every Bite Taste'} />
 
                 <div className="flex flex-row gap-5">
-                    <button className="arrow-left arrow w-10 h-10 bg-white rounded-full shadow-lg text-lg 
+                    <button className="arrow-left w-10 h-10 bg-white rounded-full shadow-lg text-lg 
                     hover:text-[#BD1F17]"><IoIosArrowBack className="mx-auto" /></button>
-                    <button className="arrow-right arrow w-10 h-10 bg-white rounded-full shadow-lg text-lg 
+                    <button className="arrow-right w-10 h-10 bg-white rounded-full shadow-lg text-lg 
                     hover:text-[#BD1F17]"><IoIosArrowForward className="mx-auto" /></button>
                 </div>
             </div>
 
             <Swiper breakpoints={{
-                640: {
-                    width: 640,
-                    slidesPerView: 1,
-                },
-                768: {
-                    width: 768,
-                    slidesPerView: 2,
-                },
-                1024: {
-                    width: 1024,
-                    slidesPerView: 4,
-                    spaceBetween: 30
-                },
+                640: { width: 640, slidesPerView: 1 },
+                768: { width: 768, slidesPerView: 2 },
+                1024: { width: 1024, slidesPerView: 4, spaceBetween: 30 }
             }}
                 navigation={{ nextEl: ".arrow-right", prevEl: ".arrow-left" }} modules={[Autoplay, Navigation]}
                 autoplay={{ delay: 2500, disableOnInteraction: false, }} loop={true} className="mySwiper mt-6 lg:mt-12">
