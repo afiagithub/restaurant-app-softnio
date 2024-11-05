@@ -6,7 +6,7 @@ import CommonBtn from './shared/CommonBtn';
 
 const Banner = () => {
     return (
-        <div className="hero min-h-[50vh] px-7 lg:px-44 py-8 text-white font-robo"
+        <div className="hero min-h-[50vh] px-7 lg:px-44 py-8 text-white"
             style={{ background: `url(${bgImg}), linear-gradient(123.4deg, #BD1F17 40.8%, #A61D13 76.4%, #8E1B0F 120.69%)` }}>
             <div className="flex flex-col lg:flex-row items-center justify-center gap-5 lg:gap-0">
                 <div className='lg:-mr-16 z-10 px-5 lg:px-0'>
@@ -21,7 +21,7 @@ const Banner = () => {
                 <div className='relative'>
                     <img src={flowerImg} alt="flower" className='absolute -top-5 -right-5' />
                     <img src={bannerImg}
-                        className="max-w-sm lg:max-w-lg rounded-lg shadow-2xl lg:-ml-16" />
+                        className="max-w-sm md:max-w-lg rounded-lg shadow-2xl lg:-ml-16" />
                     <div className='absolute right-4 lg:-right-10 bottom-4 lg:-bottom-10 w-20 h-20 capitalize 
                     font-bebas text-xl bg-[#FEBF00] rounded-full flex flex-row justify-center 
                     items-center text-black'>

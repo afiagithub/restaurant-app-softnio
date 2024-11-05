@@ -16,10 +16,10 @@ const About = () => {
                 <img src={sideImg} alt="" className="hidden lg:flex absolute right-0 bottom-36 w-32" />
                 <div className="flex flex-col lg:flex-row items-center lg:items-start gap-5 w-full">
                     <div className="relative w-4/5">
-                        <img src={aboutImg} className="max-w-sm lg:max-w-lg rounded-lg shadow-2xl" />
+                        <img src={aboutImg} className="max-w-sm md:max-w-lg md:mx-auto lg:mx-0 rounded-lg shadow-2xl" />
 
                         <div className="card bg-white w-56 font-opensans flex flex-row gap-5 items-center 
-                    absolute top-5 left-5 p-3">
+                    absolute top-5 left-5 md:left-24 lg:left-5 p-3">
                             <div className="radial-progress text-[#FEBF00]"
                                 style={{ "--value": 80 }} role="progressbar">
                                 <span className="text-black font-bold text-xl">50+</span></div>
@@ -40,7 +40,7 @@ const About = () => {
                                     <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Exceptional culinary <br /> experience and delicious food
                                     </p>
-                                    <p className="font-robo text-sm py-5 w-[95%]">
+                                    <p className="text-sm py-5 w-[95%]">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Ornare non sed est cursus. Vel hac convallis ipsum, facilisi
                                         odio pellentesque bibendum viverra tempus. Lorem ipsum dolor
@@ -49,7 +49,7 @@ const About = () => {
                                     </p>
                                     <div className="flex flex-row items-center gap-8">
                                         <CommonBtn btnText={'About More'}/>
-                                        <p className="font-robo font-semibold flex flex-row gap-2">
+                                        <p className="font-semibold flex flex-row gap-2">
                                             <img src={callImg} alt="" /> +88 3426 739 485</p>
                                     </div>
                                 </div>
@@ -60,7 +60,7 @@ const About = () => {
                                     <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Culinary experience of <br /> 12+ years
                                     </p>
-                                    <p className="font-robo text-sm py-5 w-[95%]">
+                                    <p className="text-sm py-5 w-[95%]">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Ornare non sed est cursus. Vel hac convallis ipsum, facilisi
                                         odio pellentesque bibendum viverra tempus. Lorem ipsum dolor
@@ -75,7 +75,7 @@ const About = () => {
                                     <p className="font-bebas font-medium text-4xl lg:text-5xl text-[#181818]">
                                         Get your booking now <br /> by calling or online request
                                     </p>
-                                    <p className="font-robo text-sm py-5 w-[95%]">
+                                    <p className="text-sm py-5 w-[95%]">
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                         Ornare non sed est cursus. Vel hac convallis ipsum, facilisi
                                         odio pellentesque bibendum viverra tempus. Lorem ipsum dolor

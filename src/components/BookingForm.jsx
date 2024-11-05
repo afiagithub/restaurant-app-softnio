@@ -71,7 +71,7 @@ const BookingForm = () => {
                             border border-white bg-transparent "></textarea>
                     </div>
                     <div>
-                        <input className="btn bg-[#FEBF00] rounded-none font-robo font-bold border-2 border-[#FEBF00] 
+                        <input className="btn bg-[#FEBF00] rounded-none font-bold border-2 border-[#FEBF00] 
                         hover:border-[#FEBF00] hover:text-[#FEBF00] hover:bg-transparent"
                             type="submit" value="Book Now" />
                     </div>

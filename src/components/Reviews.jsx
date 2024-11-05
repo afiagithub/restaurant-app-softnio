@@ -14,7 +14,7 @@ import { IoIosArrowForward } from "react-icons/io";
 
 const Reviews = () => {
     return (
-        <div className="py-12 lg:py-16 px-7 lg:px-28 font-robo relative">
+        <div className="py-12 lg:py-16 px-7 lg:px-28 relative">
             <div className="flex flex-row justify-between items-center">
                 <TitleLine title={'What Some of my Customers Say'} sub={'Crispy, Every Bite Taste'} />
 

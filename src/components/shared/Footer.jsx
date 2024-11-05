@@ -33,11 +33,11 @@ const Footer = () => {
                 <div className="flex flex-row justify-center items-center gap-5 mt-16 lg:mt-32">
                     <a href="https://www.facebook.com/" target="_blank" className="border rounded-full p-3">
                     <FaFacebook /></a>
-                    <a href="https://www.facebook.com/" target="_blank" className="border rounded-full p-3">
+                    <a href="https://x.com/" target="_blank" className="border rounded-full p-3">
                     <FaSquareXTwitter /></a>
-                    <a href="https://www.facebook.com/" target="_blank" className="border rounded-full p-3">
+                    <a href="https://www.instagram.com/" target="_blank" className="border rounded-full p-3">
                     <FaInstagramSquare /></a>
-                    <a href="https://www.facebook.com/" target="_blank" className="border rounded-full p-3">
+                    <a href="https://www.linkedin.com/" target="_blank" className="border rounded-full p-3">
                     <FaLinkedin /></a>
                 </div>
                 <p className="font-pop text-sm lg:text-lg mt-5">© 2023 
