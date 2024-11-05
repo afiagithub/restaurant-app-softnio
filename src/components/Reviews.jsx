@@ -28,7 +28,7 @@ const Reviews = () => {
 
             <Swiper
                 navigation={{ nextEl: ".arrow-right", prevEl: ".arrow-left" }} modules={[Autoplay, Navigation]}
-                autoplay={{ delay: 2500, disableOnInteraction: false, }} loop={true} className="mySwiper">
+                autoplay={{ delay: 2500, disableOnInteraction: true, }} loop={true} className="mySwiper">
                 <SwiperSlide>
                     <ReviewCard vid={vid1} />
                 </SwiperSlide>
@@ -38,9 +38,9 @@ const Reviews = () => {
                 <SwiperSlide>
                     <ReviewCard vid={vid3} />
                 </SwiperSlide>
-            </Swiper>
-            <img src={sideImg1} alt="tomato" className="absolute top-28 left-0 w-28" />
-            <img src={sideImg2} alt="tomato" className="absolute top-28 right-0 -z-10" />
+            </Swiper>            
+            <img src={sideImg1} alt="tomato" className="hidden lg:flex absolute top-28 left-0 w-28" />
+            <img src={sideImg2} alt="tomato" className="hidden lg:flex absolute top-28 right-0 -z-10" />
         </div>
     );
 };

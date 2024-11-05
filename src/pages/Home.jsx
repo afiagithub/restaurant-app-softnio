@@ -4,6 +4,7 @@ import About from '../components/About';
 import PopularMenu from '../components/PopularMenu';
 import BookingForm from '../components/BookingForm';
 import Reviews from '../components/Reviews';
+import Footer from '../components/shared/Footer';
 
 const Home = () => {
     return (
@@ -13,6 +14,7 @@ const Home = () => {
             <PopularMenu/>
             <BookingForm/>
             <Reviews/>
+            <Footer/>
         </div>
     );
 };
